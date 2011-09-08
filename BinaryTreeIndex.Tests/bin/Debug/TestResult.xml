@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="S:\sones-bstindex-tutorial\BinaryTreeIndex.Tests\bin\Debug\BinaryTreeIndex.Tests.dll" total="27" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-09-08" time="11:04:36">
+  <environment nunit-version="2.5.10.11092" clr-version="4.0.30319.237" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="S:\NUnit" machine-name="S1CK-DELL" user="s1ck" user-domain="s1ck-Dell" />
+  <culture-info current-culture="de-DE" current-uiculture="de-DE" />
+  <test-suite type="Assembly" name="S:\sones-bstindex-tutorial\BinaryTreeIndex.Tests\bin\Debug\BinaryTreeIndex.Tests.dll" executed="True" result="Success" success="True" time="0.944" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="s1ck" executed="True" result="Success" success="True" time="0.929" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="GraphDB" executed="True" result="Success" success="True" time="0.928" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Plugins" executed="True" result="Success" success="True" time="0.928" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Index" executed="True" result="Success" success="True" time="0.928" asserts="0">
+                    <results>
+                      <test-suite type="Namespace" name="BinaryTree" executed="True" result="Success" success="True" time="0.928" asserts="0">
+                        <results>
+                          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.928" asserts="0">
+                            <results>
+                              <test-suite type="TestFixture" name="BinaryTreeIndexTests" executed="True" result="Success" success="True" time="0.926" asserts="0">
+                                <results>
+                                  <test-suite type="ParameterizedTest" name="Add_InsertKeyValue_IndexAddStrategy_Merge" executed="True" result="Success" success="True" time="0.072" asserts="0">
+                                    <results>
+                                      <test-case name="s1ck.GraphDB.Plugins.Index.BinaryTree.Tests.BinaryTreeIndexTests.Add_InsertKeyValue_IndexAddStrategy_Merge()" executed="True" result="Success" success="True" time="0.062" asserts="6" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="ParameterizedTest" name="Add_InsertKeyValue_IndexAddStrategy_Replace" executed="True" result="Success" success="True" time="0.004" asserts="0">
+                                    <results>
+                                      <test-case name="s1ck.GraphDB.Plugins.Index.BinaryTree.Tests.BinaryTreeIndexTests.Add_InsertKeyValue_IndexAddStrategy_Replace()" executed="True" result="Success" success="True" time="0.003" asserts="7" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="ParameterizedTest" name="Add_InsertKeyValue_IndexAddStrategy_Unique" executed="True" result="Success" success="True" time="0.004" asserts="0">
+                                    <results>
+                                      <test-case name="s1ck.GraphDB.Plugins.Index.BinaryTree.Tests.BinaryTreeIndexTests.Add_InsertKeyValue_IndexAddStrategy_Unique()" executed="True" result="Success" success="True" time="0.004" asserts="2" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="ParameterizedTest" name="Add_InsertNull" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                                    <results>
+                                      <test-case name="s1ck.GraphDB.Plugins.Index.BinaryTree.Tests.BinaryTreeIndexTests.Add_InsertNull()" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="ParameterizedTest" name="Add_InsertVertex" executed="True" result="Success" success="True" time="0.013" asserts="0">
+                                    <results>
+                                      <test-case name="s1ck.GraphDB.Plugins.Index.BinaryTree.Tests.BinaryTreeIndexTests.Add_InsertVertex()" executed="True" result="Success" success="True" time="0.012" asserts="4" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="ParameterizedTest" name="Add_InsertVertex_Fails" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                                    <results>
+                                      <test-case name="s1ck.GraphDB.Plugins.Index.BinaryTree.Tests.BinaryTreeIndexTests.Add_InsertVertex_Fails()" executed="True" result="Success" success="True" time="0.002" asserts="3" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="ParameterizedTest" name="AddRange_InsertKeyValuePairs" executed="True" result="Success" success="True" time="0.013" asserts="0">
+                                    <results>
+                                      <test-case name="s1ck.GraphDB.Plugins.Index.BinaryTree.Tests.BinaryTreeIndexTests.AddRange_InsertKeyValuePairs()" executed="True" result="Success" success="True" time="0.012" asserts="33" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="ParameterizedTest" name="AddRange_InsertVertices" executed="True" result="Success" success="True" time="0.004" asserts="0">
+                                    <results>
+                                      <test-case name="s1ck.GraphDB.Plugins.Index.BinaryTree.Tests.BinaryTreeIndexTests.AddRange_InsertVertices()" executed="True" result="Success" success="True" time="0.003" asserts="33" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="ParameterizedTest" name="Clear_RemoveAllKeys" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                                    <results>
+                                      <test-case name="s1ck.GraphDB.Plugins.Index.BinaryTree.Tests.BinaryTreeIndexTests.Clear_RemoveAllKeys()" executed="True" result="Success" success="True" time="0.001" asserts="5" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="ParameterizedTest" name="ContainsKey_False" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                                    <results>
+                                      <test-case name="s1ck.GraphDB.Plugins.Index.BinaryTree.Tests.BinaryTreeIndexTests.ContainsKey_False()" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="ParameterizedTest" name="ContainsKey_True" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                                    <results>
+                                      <test-case name="s1ck.GraphDB.Plugins.Index.BinaryTree.Tests.BinaryTreeIndexTests.ContainsKey_True()" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="ParameterizedTest" name="Init_CheckPrivateMemberEquality" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                                    <results>
+                                      <test-case name="s1ck.GraphDB.Plugins.Index.BinaryTree.Tests.BinaryTreeIndexTests.Init_CheckPrivateMemberEquality()" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="ParameterizedTest" name="InitializePlugin_CheckPropertyIDs" executed="True" result="Success" success="True" time="0.654" asserts="0">
+                                    <results>
+                                      <test-case name="s1ck.GraphDB.Plugins.Index.BinaryTree.Tests.BinaryTreeIndexTests.InitializePlugin_CheckPropertyIDs()" executed="True" result="Success" success="True" time="0.654" asserts="2" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="ParameterizedTest" name="KeyCountTest" executed="True" result="Success" success="True" time="0.004" asserts="0">
+                                    <results>
+                                      <test-case name="s1ck.GraphDB.Plugins.Index.BinaryTree.Tests.BinaryTreeIndexTests.KeyCountTest()" executed="True" result="Success" success="True" time="0.003" asserts="2" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="ParameterizedTest" name="Keys" executed="True" result="Success" success="True" time="0.005" asserts="0">
+                                    <results>
+                                      <test-case name="s1ck.GraphDB.Plugins.Index.BinaryTree.Tests.BinaryTreeIndexTests.Keys()" executed="True" result="Success" success="True" time="0.004" asserts="12" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="ParameterizedTest" name="Remove_False" executed="True" result="Success" success="True" time="0.003" asserts="0">
+                                    <results>
+                                      <test-case name="s1ck.GraphDB.Plugins.Index.BinaryTree.Tests.BinaryTreeIndexTests.Remove_False()" executed="True" result="Success" success="True" time="0.003" asserts="12" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="ParameterizedTest" name="Remove_True" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                                    <results>
+                                      <test-case name="s1ck.GraphDB.Plugins.Index.BinaryTree.Tests.BinaryTreeIndexTests.Remove_True()" executed="True" result="Success" success="True" time="0.001" asserts="6" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="ParameterizedTest" name="RemoveRange_RemoveKeys" executed="True" result="Success" success="True" time="0.008" asserts="0">
+                                    <results>
+                                      <test-case name="s1ck.GraphDB.Plugins.Index.BinaryTree.Tests.BinaryTreeIndexTests.RemoveRange_RemoveKeys()" executed="True" result="Success" success="True" time="0.007" asserts="5" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="ParameterizedTest" name="RemoveRange_RemoveVertices" executed="True" result="Success" success="True" time="0.006" asserts="0">
+                                    <results>
+                                      <test-case name="s1ck.GraphDB.Plugins.Index.BinaryTree.Tests.BinaryTreeIndexTests.RemoveRange_RemoveVertices()" executed="True" result="Success" success="True" time="0.005" asserts="5" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="ParameterizedTest" name="this_ExistingKey" executed="True" result="Success" success="True" time="0.013" asserts="0">
+                                    <results>
+                                      <test-case name="s1ck.GraphDB.Plugins.Index.BinaryTree.Tests.BinaryTreeIndexTests.this_ExistingKey()" executed="True" result="Success" success="True" time="0.013" asserts="4" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="ParameterizedTest" name="this_NonExistingKey_ThrowsException" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                                    <results>
+                                      <test-case name="s1ck.GraphDB.Plugins.Index.BinaryTree.Tests.BinaryTreeIndexTests.this_NonExistingKey_ThrowsException()" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="ParameterizedTest" name="TryGetValues_ExistingKey" executed="True" result="Success" success="True" time="0.003" asserts="0">
+                                    <results>
+                                      <test-case name="s1ck.GraphDB.Plugins.Index.BinaryTree.Tests.BinaryTreeIndexTests.TryGetValues_ExistingKey()" executed="True" result="Success" success="True" time="0.002" asserts="10" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="ParameterizedTest" name="TryGetValues_NonExistingKey" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                                    <results>
+                                      <test-case name="s1ck.GraphDB.Plugins.Index.BinaryTree.Tests.BinaryTreeIndexTests.TryGetValues_NonExistingKey()" executed="True" result="Success" success="True" time="0.001" asserts="5" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="ParameterizedTest" name="TryRemoveValue_ExistingKey_ExistingValue" executed="True" result="Success" success="True" time="0.003" asserts="0">
+                                    <results>
+                                      <test-case name="s1ck.GraphDB.Plugins.Index.BinaryTree.Tests.BinaryTreeIndexTests.TryRemoveValue_ExistingKey_ExistingValue()" executed="True" result="Success" success="True" time="0.003" asserts="13" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="ParameterizedTest" name="TryRemoveValue_ExistingKey_NonExistingValue" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                                    <results>
+                                      <test-case name="s1ck.GraphDB.Plugins.Index.BinaryTree.Tests.BinaryTreeIndexTests.TryRemoveValue_ExistingKey_NonExistingValue()" executed="True" result="Success" success="True" time="0.001" asserts="6" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="ParameterizedTest" name="TryRemoveValue_NonExistingKey_NonExistingValue" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                                    <results>
+                                      <test-case name="s1ck.GraphDB.Plugins.Index.BinaryTree.Tests.BinaryTreeIndexTests.TryRemoveValue_NonExistingKey_NonExistingValue()" executed="True" result="Success" success="True" time="0.002" asserts="6" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="ParameterizedTest" name="ValueCountTest" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                                    <results>
+                                      <test-case name="s1ck.GraphDB.Plugins.Index.BinaryTree.Tests.BinaryTreeIndexTests.ValueCountTest()" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                                    </results>
+                                  </test-suite>
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

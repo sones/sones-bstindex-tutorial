@@ -1,0 +1,9 @@
+binary search tree index tutorial
+
+This is the source corresponding to the custom index tutorial which can be found here:
+
+http://developers.sones.de/wiki/doku.php?id=documentation:plugins:database:indices
+
+It can be seen as some kind of template to implement own indices which can be integrated in the sones GraphDB.
+
+Questions are alway welcome -> http://forum.sones.com
